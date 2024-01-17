@@ -17,13 +17,6 @@
 #include <stdio.h>
 #include <ctype.h>
 
-#ifndef E_READING
-#define E_READING "Error while reading bites\n"
-#endif
-
-#ifndef E_WRITING
-#define E_WRITING "Error while writing bites\n"
-#endif
 
 #ifndef E_EMPTY_STRING
 #define E_EMPTY_STRING "Empty string was given\n"
