@@ -1,1 +1,1 @@
-#In this project I have to implement a simple programm, which take string from user and print first N symbols. But I has to use system functions instead common. F.e. instead of use printf I have to use syscall write().
+In this project I have to implement a simple programm, which take string from user and print first N symbols. But I has to use system functions instead common. F.e. instead of use printf I have to use syscall write().
