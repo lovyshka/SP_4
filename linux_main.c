@@ -40,7 +40,7 @@ int from_string_to_int(char * arg){
 }
 
 void write_n_sym(char * src, size_t n){
-    int error_num = write(0, src, n) < 0;
+    int error_num = write(0, src, n);
     if (error_num < 0){
         perror("Error occured");
         char * error_msg = strerror(error_num);

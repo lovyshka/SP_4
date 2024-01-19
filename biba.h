@@ -16,6 +16,7 @@
 #include <errno.h>
 #include <stdio.h>
 #include <ctype.h>
+#include <windows.h>
 
 
 #ifndef E_EMPTY_STRING
@@ -45,6 +46,9 @@ char * get_string_from_input();
 void write_n_sym(char * src, size_t n);
 int from_string_to_int(char * arg);
 
+INT from_string_to_int_windows(LPSTR arg);
+LPSTR get_string_from_input_windows();
+void write_n_sym_windows(LPSTR src, DWORD n);
 
 
 #endif //SP_4_BIBA_H
